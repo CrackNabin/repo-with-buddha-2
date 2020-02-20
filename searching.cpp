@@ -35,6 +35,7 @@ int main(){
     int num = 1;
     // std::cout << "Search: "; 
     // std::cin >> num;
+    // yeah
 
     int len = sizeof(arr)/sizeof(arr[0]);
     bool found = searchFromArray(arr,num,0,len-1);
